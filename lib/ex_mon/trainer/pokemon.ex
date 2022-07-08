@@ -20,7 +20,7 @@ defmodule ExMon.Trainer.Pokemon do
   def build(params) do
     params
     |> changeset()
-    |> apply_action!(:insert)
+    |> apply_action(:insert)
   end
 
   def changeset(params) do
