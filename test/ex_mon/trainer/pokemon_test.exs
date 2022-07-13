@@ -2,7 +2,6 @@ defmodule ExMon.Trainer.PokemonTest do
   use ExMon.DataCase
 
   alias ExMon.Trainer.Pokemon
-  alias ExMon.Trainer
 
   describe "changeset/1" do
     test "when given valid params, returns a valid changeset" do
