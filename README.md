@@ -35,7 +35,7 @@ These routes requires the Authetication Token Bearer to be accessed;
 
 - `Delete` [`localhost:4000/api/trainer/:id`](http://localhost:4000/api/trainer/:id) <- Deletes the trainer from our db
 
-- `Post` [`localhost: 4000/api/trainer_pokemons`](http://localhost:4000/api/trainer_pokemons) <- body example:
+- `Post` [`localhost: 4000/api/trainer_pokemons`](http://localhost:4000/api/trainer_pokemons) - body example:
 
 ```Json
 {
